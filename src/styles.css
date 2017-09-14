@@ -1,1 +1,185 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    /* master size yang akan diambil oleh kode M, kalau tidak ada master sizenya maka akan mengambil font 11px */
+    margin: 0px;
+}
+.header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('/assets/img/headpattern.jpg') no-repeat center center scroll;
+/* referensi dari folder cssnya */
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.header-name{
+    font-size: 2em;
+    /* 2 kali master size (em) */
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 35px;
+}
+
+.header-occupation{
+    font-size: 1.3em;
+    font-weight: bold;
+    color:black;
+}
+
+.header-tagline{
+    color: black;
+}
+.profile-image{
+    margin: auto;
+    padding: ;
+    max-height: 3500px;
+    border: 3px solid #a7a7a7;
+}
+
+.custom-navbar .navbar-nav > 11 > a {
+    
+}
+/*ABOUT*/
+
+.about-info{
+    text-align: left;
+    border-bottom: dashed 2px;
+    padding: 10px 10px 10px 0px;
+    font-family:'Open Sans Condensed', sans-serif; 
+    font-size: 1.2em;
+}
+
+.about-info h4{
+    font-size: 2.5em;
+}
+
+.about-img{
+    border: 4px solid #a7a7a7;
+    float: right;
+}
+
+.about-img-container{
+    float: right;
+}
+
+.row.row-eq-height {
+    display: flex;
+}
+.about-img-padding{
+    margin-top: 40%;
+    margin-bottom: 25%;
+}
+@media only screen and (max-width: 1024px) {
+    .about-img-container{
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .row.row-eq-height {
+        display: initial;
+    }
+}
+
+
+/*ABOUT*/
+/* My Education */
+#myeducation{
+    background-color:#A7A7A7;
+    min-height: 500px;
+}
+
+.myeducation-container{
+    padding: 30px;
+    text-align: left;
+}
+
+.myeducation-year{
+    border-right: 4px solid #ff8738;
+    padding-left: 10px;
+}
+
+.myeducation-underline{
+    border-color: black;
+}
+/* General */
+.section{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.sectiona{
+    text-align: right;
+}
+
+.sectionb{
+    text-align: right;
+    margin-bottom: 0px;
+}
+.section-title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top:15px;
+    margin-bottom: 20px;
+    color: #141212;
+    text-align: center;
+}
+
+/*MY SKILL*/
+
+.myskill-bg-image {
+    display: block;
+    text-align: center;
+    background: url('/assets/img/background2.jpg') no-repeat center center scroll;
+    background-size: cover;
+    height: inherit;
+}
+
+.myskill-title{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.myskill-container{
+    padding: 30px;
+    text-align: left;
+    color: white;
+}
+
+.myskill-progress-title{
+    padding: 10px 10px 10px 0px;
+}
+
+/*MY SKILL*/
+/* Contact */
+#contact{
+    padding-bottom: 40px;
+}
+
+.contact-input{
+    border-radius: 0px;
+    background-color: #FFFFFF
+}
+
+.contact-button{
+    background-color: #A7A7A7;
+    color: white;
+    border-radius: 0px;
+    width: 50%;
+    float: left;
+}
+
+/* copyright */
+#copyright {
+    background-color: #A7A7A7;
+    color: white;
+    border-radius: 0px;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+}
